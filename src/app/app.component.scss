@@ -1,22 +1,15 @@
-body{
-    margin: 0em;
-}
+
 .example-card {
-    max-width: 400px;
-    border: 0 !important;
-    box-shadow: 3px 2px 2px 1px wheat;
-    text-shadow: 2px 2px 5px black;
-    background: white;
-    background-size: cover;
-    background-position: center;
-    margin: 5px 5px 5px 5px;
-    
+    max-width: 300px;
+    margin: 10px 10px 10px 10px;
+     
   }
   
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
+  
 .mat-card-image {
     
     padding-left: padding-inline-start;
@@ -25,3 +18,32 @@ body{
     padding-bottom: padding-inline-start;
     
 }  
+
+#views {
+  display:block;
+  float: left;
+  padding: 5px 5px 5px 5px;
+}
+
+
+.mat-card-avatar {
+
+    border: 1px solid #000;
+    padding-top:4px;
+    float: left;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+#cantd-views{
+  display:block;
+  float: left;
+  padding: 5px;
+}
+
+#ctd-minutos{
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
